@@ -1,5 +1,5 @@
 {% set name = "spint" %}
-{% set version = "1.0.6" %}
+{% set version = "1.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 64beb8bf3daaf299d6b0ca6051d2c2213129c09e62fd0a0e6f36374a88b8e9c8
+  sha256: 7ee6bfc725f8b507abd43f3d397bde8eaf6d85b8052f9ecb0c69f613bfeac4ca
 
 build:
   noarch: python
