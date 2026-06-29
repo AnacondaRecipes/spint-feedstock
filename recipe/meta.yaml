@@ -30,13 +30,17 @@ requirements:
     - spreg >=1.3
 
 test:
+  source_files:
+    - spint/tests
   imports:
     - spint
   requires:
     - python
+    - pytest
   commands:
     - pip check
     - python -c "from importlib.metadata import version; assert(version('{{ name }}')=='{{ version }}')"
+    - pytest --import-mode=importlib -vvv --pyargs spint.tests
 
 about:
   home: https://pysal.org
