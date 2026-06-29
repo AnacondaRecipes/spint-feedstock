@@ -53,7 +53,7 @@ about:
     The Spatial Interaction Modeling (SpInt) module provides a collection of
     tools to study spatial interaction processes and analyze spatial
     interaction data.
-  doc_url: https://readthedocs.org/projects/spint
+  doc_url: https://spint.readthedocs.io
   dev_url: https://github.com/pysal/spint
 
 extra:
